@@ -8,13 +8,11 @@ class bcolors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
-# Python program for implementation of Quicksort Sort
+# Python implementation of Quicksort Sort
 
-# This function takes last element as pivot, places
-# the pivot element at its correct position in sorted
-# array, and places all smaller (smaller than pivot)
-# to left of pivot and all greater elements to right
-# of pivot
+# This function takes last element as pivot, places the pivot element at its correct position in sorted
+# array, and places all smaller (smaller than pivot) to left of pivot and all greater elements to right of pivot
+
 def partition(arr, starting_index, pivot_index): #  put pivot to the right place + return index of pivot
     # 1.
     print "--------------------- tri + placement pivot"
